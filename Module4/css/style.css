@@ -1,0 +1,66 @@
+body {
+    background: lightblue;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+
+main {
+    float: left;
+    width: 70%;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    color: rgb(130, 14, 141);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer {
+    clear: both;
+    padding-top: 20px;
+}
+
+.home {
+    background: url(../images/joanna-kosinska-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+
+.home .content-wrapper {
+    background-color: rgb(255 255 255 / 0.25);
+}
+
+.image-showcase img {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.image-showcase p {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+}
+
+.image-showcase:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(177, 157, 196);
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.expy {
+    float: none;
+}
